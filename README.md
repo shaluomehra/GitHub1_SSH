@@ -19,7 +19,7 @@ Lets do a step-by-step guide on getting SSH Keys and how we can use them to push
 4. To go into the .ssh folder we use `cd` followed by the folder name so `cd .ssh` <br>
 <br>
 5. Type the following command:
-```bash
+```python
 $ ssh-keygen -t rsa -b 4096 -C "(USUALLY YOUR EMAIL)"
 ```
 - `-t rsa`: Specifies the type of key to create in this case RSA
